@@ -1,8 +1,6 @@
 .\" Manpage for _printf().
-.TH man 3 "17 March 2020" "1.0" "_printf man page"
-.SH NAME
+.TH man 3 "20 September 2023" "1.0" "_printf man page"
 printf()
-.SH SYNOPS
 #include "main.h"
 
 Use the function wuth the specifiers (c,s,i,d, etc) after the %. If no identifier is present then the function prints the literalu string.
@@ -133,7 +131,7 @@ conversion specifiers and their meanings are:
               conversion specification is '%%'.
 <<<<<<< HEAD
 .SH EXAMPLE
-#include "holberton.h"
+#include "main.h"
 	 _printf("hello, %s", "people")
 	 output: hello, people
 =======
@@ -148,4 +146,4 @@ printf(3).
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-Charliemur2, mecomonteshbtn.
+Omar Said.
